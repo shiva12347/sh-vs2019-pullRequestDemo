@@ -33,6 +33,8 @@ namespace sh_vs2019_pullRequestDemo
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello SHIVAAA!");
+                    await context.Response.WriteAsync("Hello World!");
                 });
             });
         }
